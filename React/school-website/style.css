@@ -1,0 +1,151 @@
+/* global elements editing section */
+* {
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.subhead {
+    margin: 0;
+    font-weight: 600;
+    font-size: 39px;
+    letter-spacing: 2px;
+
+}
+
+.small-subhead {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    display: block;
+    /* color: #636363; */
+    /* background-color: blue; */
+}
+
+.our-story, 
+.key-feature-tab, 
+.school-updates, 
+.social-media {
+    padding-top: 70px;
+}
+
+.text-logo {
+    text-align: left;
+}
+
+.columns {
+    display: flex;
+    padding: 20px;
+    /* border: 1px solid red; */
+}
+/* end of global editing section */
+
+
+/* slider start  */
+.slider {
+    background-image: url("images/pexels-tirachard-kumtanom-733857.jpg");
+    height: 680px;
+    background-size: cover;
+}
+
+/* slider ends */
+/* navigation section */
+.navbar {
+    display: flex;
+    /* border: 1px solid red; */
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+.nav-items {
+    padding: 10px 20px;
+}
+
+/* end of navigation section */
+
+/* school updates section */
+.updates {
+    /* background-color: #e7e7e7; */
+    background-color: #e9ebee;
+    /* border: 1px solid red; */
+}
+
+.news {
+    width: 1000px;
+    /* height: 500px; */
+    margin: 0 auto;
+    padding: 50px;
+    /* border: 1px solid red; */
+}
+
+.news-col {
+    background-color: #90949c;
+    margin-left: 20px;
+    width: 250px;
+    padding: 20px;
+}
+/* End of school updates section */
+
+/*  welcome section */
+.welcome-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+.intro-text {
+    margin: 0 auto;
+    padding-top: 20px;
+    line-height: 38px;
+    margin-bottom: 0;
+}
+/* End of welcome section */
+
+/* tabbed section */
+.tab-list {
+    padding: 20px 0;
+    max-width: 900px;
+    font-weight: 600;
+    display: flex;
+    margin: 0 auto;
+    list-style: none;
+    /* border: 1px solid red; */
+}
+
+.tab-item {
+
+    padding: 10px 20px;
+    margin-left: 40px;
+    border-bottom: 2px solid #000;
+}
+
+.tab-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+/* end of tabbed section */
+
+/* footer section */
+.contact {
+    text-align: left;
+    background-color: #333333;
+    color: white;
+}
+.fsubhead {
+    text-align: center;
+    width: 500px;
+    margin: 20px auto;
+    border-bottom: 2px solid #4144f8;
+
+}
+
+.address, .open-hours {
+    padding: 20px;
+}
+/* end of footer section */

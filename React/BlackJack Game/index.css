@@ -1,0 +1,28 @@
+body {
+    background: url("images/table.png");
+    background-size: cover;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+}
+
+h1 {
+    color: goldenrod;
+}
+
+button {
+    background-color: goldenrod;
+    display: block;
+    width: 150px;
+    color: darkgreen;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 3px auto;
+    border: none;
+    border-radius: 2px;
+}
+#message-el {
+    font-style: italic;
+}
